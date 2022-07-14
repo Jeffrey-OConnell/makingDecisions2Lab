@@ -171,6 +171,7 @@ switch(letterGrade){
   case "F": console.log("The student is failing")
   default: console.log("Not an eligible grade.")
 } 
+console.log("-----")
 
 
 ////////// PROBLEM 11 //////////
@@ -198,3 +199,14 @@ switch(letterGrade){
 */
 
 //Code Here
+for(let i = 0; i < 101;i++){
+  if(i % 3 === 0 && i % 5 === 0){
+    console.log("Devmountain")
+  } else if (i % 3 === 0){
+    console.log("Dev")
+  } else if (i % 5 === 0){
+    console.log("Mountain")
+  } else {
+    console.log(i)
+  }
+}
