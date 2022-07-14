@@ -123,6 +123,7 @@ for(let i = 0;i < listOfNumbers.length;i++){
     console.log (`${listOfNumbers[i]} is divisible by 3`)
   }
 }
+console.log("-----")
 
 
 ////////// PROBLEM 9 //////////
@@ -135,7 +136,8 @@ var letters = ['A', 'B', 'C', 'D', 'E'];
 */
 
 //Code Here
-
+for (let i = letters.length - 1; i >=0; i--)
+console.log(letters[i])
 
 ////////// Advanced Problems //////////
 
