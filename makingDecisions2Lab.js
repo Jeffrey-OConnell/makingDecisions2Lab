@@ -54,6 +54,7 @@ for(let i = 0; i < nums.length; i++){
   }
 }
 console.log(evensArr)
+console.log("-----")
 ////////// PROBLEM 5 //////////
 
 // Do not edit the code below.
@@ -65,6 +66,17 @@ var score = 74
 */
 
 //Code Here
+if(score >= 90){
+  console.log("A")
+} else if (score >= 80){
+  console.log("B")
+} else if (score >=70){
+  console.log("C")
+} else if (score >=60){
+  console.log("D")
+} else {
+  console.log("F")
+}
 
 
 ////////// Intermediate Problems //////////
