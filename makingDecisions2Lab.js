@@ -199,7 +199,7 @@ console.log("-----")
 */
 
 //Code Here
-for(let i = 0; i < 101;i++){
+for(let i = 0; i <= 100;i++){
   if(i % 3 === 0 && i % 5 === 0){
     console.log("Devmountain")
   } else if (i % 3 === 0){
